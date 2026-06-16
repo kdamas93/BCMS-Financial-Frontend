@@ -70,7 +70,7 @@ function LoginPage() {
 
                     <p className="text-gray-500 mt-2">
 
-                        Controla tus finanzas con inteligencia
+                        Controla tus finanzas con inteligencia.
 
                     </p>
 
