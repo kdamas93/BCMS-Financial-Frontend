@@ -9,6 +9,7 @@ import BudgetPage from "../pages/BudgetPage";
 
 import ProtectedRoute from "../components/ProtectedRoute";
 import RegisterPage from "../pages/RegisterPage";
+import ServerDownPage from "../pages/ServerDownPage";
 
 function AppRoutes() {
 
@@ -71,6 +72,11 @@ function AppRoutes() {
         />
 
       </Routes>
+
+      <Route
+        path="/server-down"
+        element={<ServerDownPage />}
+      />
 
     </BrowserRouter>
 
