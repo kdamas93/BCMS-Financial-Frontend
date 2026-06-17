@@ -71,12 +71,14 @@ function AppRoutes() {
           }
         />
 
-      </Routes>
-
-      <Route
+<Route
         path="/server-down"
         element={<ServerDownPage />}
       />
+
+      </Routes>
+
+      
 
     </BrowserRouter>
 
